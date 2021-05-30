@@ -13,7 +13,7 @@ export class UserService {
 
   constructor(private http:HttpClient) {}
 
-  private userUrl = 'https://project-web-api228.azurewebsites.net/user-portal/users';
+  private userUrl = 'http://localhost:8080/user-portal/users';
   //private userUrl = '/api';
 
   public getUsers() {
