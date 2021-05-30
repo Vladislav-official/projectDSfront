@@ -10,8 +10,6 @@
       "node"
     ]
   },
-  "files": [
-  ],
   "include": [
     "**/*.spec.ts",
     "**/*.d.ts"
